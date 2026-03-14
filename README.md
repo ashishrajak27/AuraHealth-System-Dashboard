@@ -1,43 +1,29 @@
-Project Overview-
+# AuraHealth: Disease & Symptom Analysis Dashboard
 
-This project is an interactive, two-page medical data visualization system designed to analyze the relationships between various symptoms and their associated diseases. It was built using Power BI to provide a clear, user-friendly interface for diagnostic validation. 
+## 🩺 Project Overview
+This interactive two-page dashboard was developed as a medical data science project to analyze the relationship between 41 different diseases and their associated symptoms. The system allows users to transition from high-level statistical overviews to specific patient-level test case validations.
 
+## 🚀 Key Features
+* **Symptom Frequency Tracking:** Visualizes the count of presence for symptoms across various medical conditions.
+* **Dynamic Disease Filtering:** An interactive slicer allows for instant deep-dives into specific diagnoses like Tuberculosis or Malaria.
+* **Model Validation (Page 1):** Features a detailed table showing raw symptom profiles for specific test cases, such as Fungal Infections and Vertigo.
+* **Data Distribution (Treemap):** Displays the volume of testing data available for each prognosis to ensure balanced analysis.
+* **KPI Metrics:** Real-time calculation of total symptom occurrences based on user-selected filters.
 
-Key Features:
+## 📊 Dashboard Preview
 
-Symptom Frequency Analysis: 
-  A bar chart that visualizes which symptoms are most common for a selected disease.  
+### Page 1: Model Testing & Validation
+This page shows the raw data used to verify the diagnostic logic, featuring a colored header table and distribution treemap.
+![Testing Page](page1%20ss1.png)
 
-Interactive Slicers: 
-  A control panel that allows users to filter the entire dashboard by specific disease names (prognosis).  
+### Page 2: Clinical Disease Overview
+A high-level view providing symptom counts and frequency charts for medical trend analysis.
+![Overview Page](page2%20ss1.png)
 
-KPI Metrics:
-  A count card that displays the total number of symptom occurrences for a given condition at a glance.  
+## 🛠️ Technical Stack
+* **Tool:** Power BI Desktop
+* **Data Handling:** Integration of Training and Testing datasets for model verification
+* **UI/UX:** Custom canvas backgrounds with 0% transparency, consistent branding, and visual effects
 
-Model Validation Page:
-  A dedicated testing page that shows raw data from a testing dataset to verify diagnostic accuracy.  
-
-Data Distribution Treemap: 
-  A visual breakdown of the count of test cases across the 41 different diseases in the dataset.  
-
-Technical Stack-
-
-Power BI Desktop: 
-
-Used for building the visual layouts, data modeling, and interactive elements.  
-
-Data Modeling: 
-
-Integrated both training and testing datasets to allow for a comprehensive "validation" view.  
-
-Design:
-
-Applied custom canvas backgrounds, theme-consistent color headers for tables, and visual effects for a professional UI.  
-
-How to Use-
-
-Overview Page:
-Select a disease from the slicer on the left to see its most frequent symptoms and total case counts.  
-
-Validation Page:
-Use the search bar to find a specific disease and view the exact symptom profiles recorded in the testing data.
+## 📈 About the Developer
+I am a Data Analytics student specializing in Python and data visualization. This project demonstrates my ability to take raw medical datasets and transform them into actionable, interactive business intelligence tools.
