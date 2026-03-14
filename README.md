@@ -1,7 +1,7 @@
 Project Overview-
 
 This project is an interactive, two-page medical data visualization system designed to analyze the relationships between various symptoms and their associated diseases. It was built using Power BI to provide a clear, user-friendly interface for diagnostic validation. 
-
+page1 ss1.png
 Key Features:
 
 Symptom Frequency Analysis: 
